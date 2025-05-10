@@ -1,8 +1,11 @@
-
+import Link from 'next/link'
 
 function about() {
-  return (
+  return (<>
     <div> about</div>
+    <Link href="/about/contact"> go to Contact page</Link><br/>
+    <Link href="/"> go tot Home page</Link>
+    </>
   )
 }
 
